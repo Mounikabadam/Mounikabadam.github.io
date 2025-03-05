@@ -1,85 +1,158 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>My Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
+
         .container {
-            width: 50%;
-            margin: auto;
-            background: white;
+            width: 80%;
+            margin: 0 auto;
             padding: 20px;
-            box-shadow: 0px 0px 10px 0px gray;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
-            color: #0e0236;
+
+        h1, h2, h3 {
+            color: #333;
+            margin: 0;
         }
-        .contact-info, .section {
-            margin-bottom: 20px;
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #ddd;
         }
-        .section h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .section-title {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .education, .projects, .skills, .activities {
+            margin-top: 10px;
+        }
+
+        .education-item, .project-item, .activity-item {
+            margin-bottom: 10px;
+        }
+
+        .education-item h4, .project-item h4, .activity-item h4 {
+            margin: 0;
+            color: #333;
+        }
+
+        .education-item p, .project-item p, .activity-item p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 40px;
+            color: #888;
+        }
+
+        .footer a {
+            color: #444;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Badam.mounika</h1>
-            <p>Web Developer | Designer | Programmer</p>
-        </header>
-       
-        <section class="contact-info">
-            <p>Email: mounika.badam@sasi.ac.in</p>
-            <p>Phone: 89850526333</p>
-            <p>LinkedIn: linkedin.com/in/Mounika.badam</p>
-        </section>
-       
-        <section class="section">
-            <h2>Skills</h2>
+        <div class="header">
+            <h1>Badam Mounika</h1>
+            <div class="contact-info">
+                <p>Sasi Instiute Of Technologyu and Engineering | JNTUK University</p>
+                <p>Email: mounikabadam16@gmail.com</p>
+                <p>Phone: +91 8519846555</p>
+                <p>Location: Tadepalligudem,West godavari,Andhrapradesh,India</p>
+            </div>
+        </div>
+        <div class="section-title">Objective</div>
+                <P>My goal is to settle in a reputed company where I can leverage my academic backgourd,adaptability and passion for growth to contribute meaningfully and evovles as a professional</p>
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="education">
+            <div class="education-item">
+                <h4>Sasi Instiute Of Technology and Engineering</h4>
+                <p>Degree: Bachelor of Technology</p>
+                <p>Graduation completion: 2026</p>
+                <p>GPA: 8.2</p>
+                <h4>Aditya Junior College</h4>
+                <p>Intermediate:MPC</p>
+                <p>completed Year: 2022</p>
+                <p>score=780</p>
+                <h4>Bhashyam public High School</h4>
+                <p>secondary school of Education</p>
+                <p>completed Year: 2020</p>
+                <p>score=591</p>
+            </div>
+        </div>
+
+        <div class="section-title">Projects</div>
+        <div class="projects">
+            <div class="project-item">
+                <h4>college website</h4>
+                <p><i>2024 - 2025</i></p>
+                <p>Creating the website using web technologies</p>
+            </div>
+        </div>
+
+        <div class="section-title">Skills</div>
+        <div class="skills">
             <ul>
-                <li>Python</li>
-                <li>C Programming</li>
-                <li>HTML</li>
-                <li>CSS (Basics)</li>
+                <li>Programming Languages: C,Python,</li>
+                <li>Web Development: HTML, CSS</li>
+                <li>Languages: English, Telugu</li>
             </ul>
-        </section>
-       
-       
-        <section class="section">
-            <h2>Education</h2>
-            <p><strong>Bachelor's Degree:</strong> Sasi Institute of Technology,EEE-82%</p>
-            <p><strong>Intermedaite:</strong> Aditya Junior College, Tadepalligudem - 78%</p>
-            <p><strong>schooling:</strong>Bhashyam little champs, Tadepalligudem - 98%</p>
-        </section>
-       
-        <section class="section">
-            <h2>Languages Known</h2>
-            <p>English, Telugu, Hindi (understand)</p>
-        </section>
-        <section class="section">
-            <h2>Achievements</h2>
-            <p>participated in paper presentation</p>
-            <p>participated in Electrical vehicles workshop</p>
-            <p>Active parpticipation in social service</p>
-            <p>Got sliverbadge in codechef</p>
-        </section>
-        <section class="section">
-            <h2>Certifications</h2>
-            <p>certificated by simplylearn for python</p>
-            <p>certificate of IEEE membership</p>
-            <p>Got sliverbadge in codechef</p>
-        </section>
-        
-    
+        </div>
+                
+            </ul>
+        </div>
+
+        <div class="section-title">Extracurricular Activities</div>
+        <div class="activities">
+            <div class="activity-item">
+                <h4>IEEE PES Chair Role - IEEE</h4>
+                <p><i>2023 - 2026</i></p>
+                <p>When I was pes chair i conducted more events, and awarness on new technologies and benefits of IEEE membership and got the best chair person award </p>
+            </div>
+            <div class="activity-item">
+                <h4>IEEE volunteer - IEEE</h4>
+                <p><i>2021 - 2022</i></p>
+                <p>When iwas volunteer i make more works like certificate design and banner designing and work as a treasurer and got a Best volunteer award</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>For more details, contact: (+91) 9491278788 or Maill id: gudurumanikanta2005@gmail.com</a></p>
+        </div>
     </div>
 </body>
 </html>
